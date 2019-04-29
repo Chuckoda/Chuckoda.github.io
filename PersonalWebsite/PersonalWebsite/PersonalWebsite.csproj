@@ -194,6 +194,7 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Home\Projects.cshtml" />
     <Content Include="Views\Home\Skills.cshtml" />
+    <Content Include="Works\FinalSubmission.pdf" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
