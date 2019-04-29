@@ -15,14 +15,28 @@ namespace PersonalWebsite.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "Here's a little about me.";
 
             return View();
         }
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Message = "This doesn't exist any more";
+
+            return View();
+        }
+
+        public ActionResult Projects()
+        {
+            ViewBag.Message = "My Previous Projects.";
+
+            return View();
+        }
+
+        public ActionResult Skills()
+        {
+            ViewBag.Message = "Here are my skills.";
 
             return View();
         }
